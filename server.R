@@ -50,6 +50,6 @@ shinyServer(function(input, output) {
         if (bmi < 18.5) "Underweight"
         else if (bmi < 25) "Normal weight"
         else if (bmi < 30) "Overweight"
-        else "Obsese"
+        else "Obese"
     })
 })
